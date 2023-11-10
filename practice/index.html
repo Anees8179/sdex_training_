@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="table2.css">
+    <title>task2</title>
+</head>
+<body>
+   
+ <div id="container">
+    <div id="tableContainer" >
+        <h1 id="table-heading">My Data Table</h1>
+        <table>
+        <tr>
+            <th>User_id</th>
+            <th>Id</th>
+            <th>Title</th>
+            <th>Completed</th>
+            <th>Action</th>
+        </tr>
+    </table>
+    </div>
+    <div  id="form-container">
+        <h1>Fill the Form </h1>
+        <form id="task-form">
+            <label for="userId">User ID:</label>
+            <div class="in">
+            <input type="number" id="userId" name="userId" required><br><br>
+            </div>
+            <label for="ID">ID : </label>
+            <div class="in">
+            <input type="number" id="ID" name="ID" required><br><br>
+            </div>
+            <label for="title"> Title :</label>
+            <div class="in">
+            <input type="text" id="title" name="title" required><br><br>
+            </div>
+
+            <label for="completed">Completed:</label>
+            <div class="in">
+            <input type="checkbox" id="completed" name="completed">
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+ </div>
+    <script src="./form3.js"></script>
+</body>
+</html>
